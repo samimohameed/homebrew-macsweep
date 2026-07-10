@@ -1,18 +1,10 @@
-# Samimohameed Macsweep
+# Homebrew tap for MacSweep
 
-## How do I install these formulae?
+[MacSweep](https://github.com/samimohameed/macsweep) — safe, whitelist-only storage cleaner for macOS.
 
-`brew install samimohameed/macsweep/<formula>`
-
-Or `brew tap samimohameed/macsweep` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "samimohameed/macsweep"
-brew "<formula>"
+```bash
+brew tap samimohameed/macsweep
+brew install macsweep
 ```
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+Then run `macsweep scan` (read-only) or `macsweep gui` after `pip install PySide6`.
