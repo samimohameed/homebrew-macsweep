@@ -3,8 +3,8 @@ class Macsweep < Formula
 
   desc "Safe, whitelist-only storage cleaner for macOS - never needs sudo"
   homepage "https://github.com/samimohameed/macsweep"
-  url "https://files.pythonhosted.org/packages/e8/48/935ef40d706435952bfe1f7dcd8a6b7e1cbdbce137c6ba291315d110b491/macsweep-0.2.0.tar.gz"
-  sha256 "cdb388f7c782af8075bb5e401be7f3c6f6050e38258304a0c6f99ee9c9fd54a2"
+  url "https://files.pythonhosted.org/packages/84/f6/a508873b954a6d0d0a62fed8564e71c732885937c84f7c02b0dfbde990f1/macsweep-0.2.1.tar.gz"
+  sha256 "500410c0a7f17b878835d127fa832aef59bd69e86e5f9ef8b832e6207b811cf3"
   license "MIT"
 
   depends_on :macos
